@@ -1,0 +1,24 @@
+{
+  "model_config": {
+    "n_stages": 4,
+    "features_per_stage": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "architecture": "lightweight_3d_unet",
+    "use_depthwise_separable": true,
+    "use_bottleneck_blocks": true
+  },
+  "parameter_analysis": {
+    "standard_model_params": 1377624,
+    "lightweight_model_params": 157588,
+    "reduction_factor": 8.741934665076021,
+    "compression_rate": 88.56088453743547
+  },
+  "formatted_results": {
+    "standard_params_formatted": "1.38M",
+    "lightweight_params_formatted": "157.59K"
+  }
+}
